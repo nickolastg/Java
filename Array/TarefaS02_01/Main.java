@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-	  	Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in);
 
-	    System.out.println("Digite o número de notas a serem inseridas");
+    System.out.println("Digite o nÃºmero de notas a serem inseridas");
     int numeroNotas = sc.nextInt();
 
     float[] notas = new float[numeroNotas];
@@ -26,7 +26,7 @@ public class Main {
     }
 
     float media = soma/numeroNotas;
-    System.out.println("A Média é: " + media);
-	    sc.close();
-	  }
+    System.out.println("A MÃ©dia Ã©: " + media);
+    sc.close();
+  }
 }
