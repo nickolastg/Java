@@ -9,13 +9,6 @@ public class Main {
     int numeroNotas = sc.nextInt();
 
     float[] notas = new float[numeroNotas];
-    //  System.out.println("Entre com nota 1:");
-    //  notas[0] = sc.nextFloat();
-    //  System.out.println("Entre com nota 2:");
-    //  notas[1] = sc.nextFloat();
-    //  System.out.println("Entre com nota 3:");
-    //  notas[2] = sc.nextFloat(Int);
-
     for(int i = 0; i < numeroNotas; ++i){
       System.out.println("Entre com a nota " +(i+1));
       notas[i] = sc.nextFloat();
