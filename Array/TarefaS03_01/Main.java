@@ -2,22 +2,23 @@ package TarefaS03_01;
 import java.util.Scanner;
 
 public class Main {
-	  public static void main(String[] args) {
-		    Scanner sc = new Scanner(System.in);
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
 
-		    System.out.println("Entre com o número de elementos");
+    System.out.println("Entre com o nÃºmero de elementos");
     int numeroElementos = sc.nextInt();
 
     int[] numeros = new int[numeroElementos];
 
     for (int i = 0; i < numeroElementos; ++i){
-      System.out.println("Entre com o número " +(i+1));
+      System.out.println("Entre com o nÃºmero " +(i+1));
       numeros[i] = sc.nextInt();
     }
+
     int maior = 0;
     int menor = 0;
 
-    for (int i = 0; i < numeroElementos; ++i){ // numeros.lenght
+    for (int i = 0; i < numeros.length; ++i){
       if (i==0){
         maior = numeros[i];
         menor = numeros[i];
@@ -30,8 +31,8 @@ public class Main {
       }
     }
 
-    System.out.println("Maior número: " + maior);
-    System.out.println("Menor número: " + menor);
-	    sc.close();
-		  }
+    System.out.println("Maior nÃºmero: " + maior);
+    System.out.println("Menor nÃºmero: " + menor);
+    sc.close();
+  }
 }
