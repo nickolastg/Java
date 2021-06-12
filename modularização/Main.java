@@ -1,6 +1,6 @@
 package modularização;
 
-class TarefaS04_01 {
+class Main {
     public static void main(String[] args) {
         String nome = args[0];
 
