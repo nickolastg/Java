@@ -2,27 +2,27 @@ package busca;
 
 public class BuscaBinaria01 {
     public static void main(String[] args) {
-        int[] numeros = {1, 4, 5, 7, 9, 11, 15};
+        int[] numeros = {1,4,5,7,9,11,15};
         int numero = 15;
-        
+
         int posicaoEncontrada = buscaBinaria(numero, numeros);
-        
-        System.out.println("Busca bin·ria com n˙meros:");
-        
+
+        System.out.println("Busca bin√°ria com n√∫meros:");
+
         System.out.println(posicaoEncontrada);
 
         String[] nomes = {"Daniela", "Gabriel", "Mariana", "Pedro", "Ruan"};
         String nome = "Pedro";
 
         int posicaoEncontradaString = buscaBinariaString(nome, nomes);
-        
-        System.out.println("Busca bin·ria com strings:");
+
+        System.out.println("Busca bin√°ria com strings:");
 
         if (posicaoEncontradaString >= 0) {
             System.out.println("O nome " + nomes[posicaoEncontradaString] +
-                " foi encontrado na posiÁ„o " + posicaoEncontradaString);
+                " foi encontrado na posi√ß√£o " + posicaoEncontradaString);
         } else {
-            System.out.println("Desculpe, o nome n„o foi encontrado :(");
+            System.out.println("Desculpe, o nome n√£o foi encontrado :(");
         }
     }
 
@@ -62,7 +62,7 @@ public class BuscaBinaria01 {
                 fim = meio - 1;
             }
         }
-        
+
         return -1;
     }
 }
