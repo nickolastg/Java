@@ -1,4 +1,4 @@
-package ordenação;
+package ordenaÃ§Ã£o;
 
 public class VetorUtil {
 	  public static int[] copiar(int[] vetor) {
@@ -12,7 +12,7 @@ public class VetorUtil {
 		 
 	  public static void imprimirVetor(int[] vetor) {
 		  for(int i = 0; i < vetor.length; i++) {
-	      System.out.println(vetor[i]);
+			System.out.println(vetor[i]);
 		  }
 		  System.out.println("------------------");
 	  }
